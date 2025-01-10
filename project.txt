@@ -1,0 +1,25 @@
+Collect data
+Kinh tế, dự đoán giá vàng, ngoại tệ
+Xã hội, dự đoán số
+Dự đoán 
+Dự đoán sạt lở đất, xử lý ảnh
+Model
+
+dự đoán giá xe máy cũ
+- hãng
+- model
+  + động cơ
+  + ... stats
+- odo xe
+- mua năm bao nhiêu
+- đồ chơi xe
+- lịch sử bảo dưỡng
+- tình trạng
+  + tai nạn
+  + linh kiện
+- giấy tờ pháp lý
+- biển số xe
+
+-> dự đoán giá tiền
+
+- web ở việt nam
