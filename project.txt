@@ -1,25 +1,32 @@
-Collect data
-Kinh tế, dự đoán giá vàng, ngoại tệ
-Xã hội, dự đoán số
-Dự đoán 
-Dự đoán sạt lở đất, xử lý ảnh
-Model
+Specs:
+- thương hiệu *
+- model *
+- năm sản xuất
+- mức độ tiêu thụ nhiên liệu *
+- loại nhiên liệu
+- loại hộp số
 
-dự đoán giá xe máy cũ
-- hãng
-- model
-  + động cơ
-  + ... stats
-- odo xe
-- mua năm bao nhiêu
+- quãng đường đi được *
+- thời gian mua
 - đồ chơi xe
 - lịch sử bảo dưỡng
-- tình trạng
-  + tai nạn
-  + linh kiện
-- giấy tờ pháp lý
+- lịch sử tai nạn *
+- lịch sử sở hữu + giấy tờ pháp lý *
 - biển số xe
+- khu vực sở hữu
 
--> dự đoán giá tiền
-
-- web ở việt nam
+Slide lab 1:
+- Tên nhóm, thành viên, lớp, môn học, chủ đề project
+- Phụ lục: Problem & Context Definition + Which data are needed for collecting?
+- Bối cảnh: người mua và bán xe máy cũ gặp khó khăn khi xác định giá cả
+- Xác định vấn đề:
+	+ Tạo công cụ, nhập vào dữ liệu, dự đoán số tiền hợp lý
+	+ Xác định dữ liệu cần thu thập: các thông số từ hãng + người dùng
+- Dữ liệu cần thu thập:
+	+ Thông số từ hãng: lấy ở …, dùng để xác định giá trị ban đầu
+	Các web …, lấy thông số …
+	+ Thông số từ người dùng: lấy ở…, dùng để xác định giá trị hiện tại
+	Các web …, lấy thông số …
+- Challenges:
+	+ Thiếu dữ liệu
+	+ Khả năng thiên lệch dữ liệu (ngáo giá)
