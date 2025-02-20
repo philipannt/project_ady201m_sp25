@@ -1,6 +1,9 @@
+Prediction of Used Motocycle Prices
+
 Specs:
 - thương hiệu *
 - model *
+- giá gốc
 - năm sản xuất
 - mức độ tiêu thụ nhiên liệu *
 - loại nhiên liệu
@@ -15,6 +18,7 @@ Specs:
 - biển số xe
 - khu vực sở hữu
 
+--------------------------------------------------------------------------------
 Slide lab 1:
 - Tên nhóm, thành viên, lớp, môn học, chủ đề project
 - Phụ lục: Problem & Context Definition + Which data are needed for collecting?
@@ -30,3 +34,19 @@ Slide lab 1:
 - Challenges:
 	+ Thiếu dữ liệu
 	+ Khả năng thiên lệch dữ liệu (ngáo giá)
+
+--------------------------------------------------------------------------------
+Data requirement:
+- Giải thích dựa trên 3/4 bước trong slide
+- Trả lời 6 câu hỏi 5W|1H
+
+- Cách thanh toán
+- Kết quả là chính xác hay khoảng? -> khoảng
+
+--------------------------------------------------------------------------------
+Lab 2:
+Quang + Huy: tiếp tục cào data cả cũ và mới ở trang web chotot
+Vũ + Kiệt: tìm 1 web khác (kiểu như chotot) rồi sử dụng api để cào data
+-> sau khi cào xong tạo 1 folder rồi commit lên repository
+-> để tí đi hỏi thử lab 2 trình bày gì rồi update tiếp lên đây
+---> deadline 22h 20/2
