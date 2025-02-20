@@ -47,6 +47,7 @@ Data requirement:
 Lab 2:
 Quang + Huy: tiếp tục cào data cả cũ và mới ở trang web chotot
 Vũ + Kiệt: tìm 1 web khác (kiểu như chotot) rồi sử dụng api để cào data
+Ân: selenium
 -> sau khi cào xong tạo 1 folder rồi commit lên repository
 -> để tí đi hỏi thử lab 2 trình bày gì rồi update tiếp lên đây
 ---> deadline 22h 20/2
