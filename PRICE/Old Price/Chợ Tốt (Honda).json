@@ -1,0 +1,991 @@
+{
+    "selection": [
+        {
+            "name": "Honda- Lead khoá smakey",
+            "year": 2018,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "25.500.000 đ",
+            "priority": true,
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/120148211.htm"
+        },
+        {
+            "name": "Mạnh hổ",
+            "rating": 4.4,
+            "sold": 628,
+            "selling": 14,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/120148211.htm"
+        },
+        {
+            "name": "Ab 125 đen bạc 2019 siêu đẹp nợ xấu đưa 8 triệu 5",
+            "year": 2019,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "29.000.000 đ",
+            "priority": true,
+            "location": "Quận Thanh Khê",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122184277.htm"
+        },
+        {
+            "name": "Nguyễn Hải",
+            "rating": 4.8,
+            "sold": 164,
+            "selling": 18,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122184277.htm"
+        },
+        {
+            "name": "Honda ablade 2015 bs 43 có trả góp trao đổi",
+            "year": 2015,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "19.500.000 đ",
+            "time": "23 giây trước",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122827655.htm"
+        },
+        {
+            "name": "Hoàng Ánh",
+            "rating": 4.5,
+            "sold": 40,
+            "selling": 66,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122827655.htm"
+        },
+        {
+            "name": "Honda ablade 2015 bs 43 có trả góp trao đổi",
+            "year": 2015,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "21.500.000 đ",
+            "time": "6 phút trước",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122827434.htm"
+        },
+        {
+            "name": "Hoàng Ánh",
+            "rating": 4.5,
+            "sold": 40,
+            "selling": 66,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122827434.htm"
+        },
+        {
+            "name": "Honda- MSX 125 nhập thái chạy có 5.000km",
+            "year": 2019,
+            "type": "Tay côn/Moto",
+            "status": "Đã sử dụng",
+            "price": "29.500.000 đ",
+            "priority": true,
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/121049862.htm"
+        },
+        {
+            "name": "Mạnh hổ",
+            "rating": 4.4,
+            "sold": 628,
+            "selling": 14,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/121049862.htm"
+        },
+        {
+            "name": "winner x v4 ABS roda 1.000km ( bao bấm biển số mới)",
+            "year": 2024,
+            "type": "Tay côn/Moto",
+            "status": "Đã sử dụng",
+            "price": "34.500.000 đ",
+            "priority": true,
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122085033.htm"
+        },
+        {
+            "name": "Mạnh hổ",
+            "rating": 4.4,
+            "sold": 628,
+            "selling": 14,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122085033.htm"
+        },
+        {
+            "name": "Vario 150 đỏ đen 2021 siêu đẹp nợ xấu đưa 12 triệu",
+            "year": 2021,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "37.500.000 đ",
+            "priority": true,
+            "location": "Quận Thanh Khê",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122042796.htm"
+        },
+        {
+            "name": "Nguyễn Hải",
+            "rating": 4.8,
+            "sold": 164,
+            "selling": 18,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122042796.htm"
+        },
+        {
+            "name": "SH 150 cực chất đúng đời 2019",
+            "year": 2019,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "68.600.000 đ",
+            "priority": true,
+            "location": "Quận Thanh Khê",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122286715.htm"
+        },
+        {
+            "name": "Thế Mẫn Chuyên Xe Lướt",
+            "rating": 4.3,
+            "sold": 169,
+            "selling": 64,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122286715.htm"
+        },
+        {
+            "name": "Winner Honda V1 Nguyên bản 43",
+            "year": 2018,
+            "type": "Tay côn/Moto",
+            "status": "Đã sử dụng",
+            "price": "17.500.000 đ",
+            "priority": true,
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/120122395.htm"
+        },
+        {
+            "name": "Hữu",
+            "rating": 4.8,
+            "sold": 68,
+            "selling": 7,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/120122395.htm"
+        },
+        {
+            "name": "cần bán sh 125 nhập ý",
+            "year": 2012,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "99.000.000 đ",
+            "time": "12 giờ trước",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122850538.htm"
+        },
+        {
+            "name": "Huynh tri",
+            "rating": null,
+            "sold": 17,
+            "selling": 1,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122850538.htm"
+        },
+        {
+            "name": "Ab cuối 2021 bao tên⛔",
+            "year": 2021,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "34.500.000 đ",
+            "time": "12 giờ trước",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/121605155.htm"
+        },
+        {
+            "name": "R Rain",
+            "rating": 5,
+            "sold": 15,
+            "selling": 5,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/121605155.htm"
+        },
+        {
+            "name": "SH 2022 biển 43E1 66790 có trả góp kể cả nợ xấu",
+            "year": 2022,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "68.500.000 đ",
+            "time": "12 giờ trước",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122751198.htm"
+        },
+        {
+            "name": "Nhật Tình",
+            "rating": 4.7,
+            "sold": 54,
+            "selling": 66,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122751198.htm"
+        },
+        {
+            "name": "Ab 2 đèn xi nhan điện đề đầy đủ",
+            "year": 2009,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "10.800.000 đ",
+            "time": "12 giờ trước",
+            "location": "Quận Hải Châu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-hai-chau-da-nang/122850288.htm"
+        },
+        {
+            "name": "gold",
+            "rating": 4.8,
+            "sold": 15,
+            "selling": 3,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-hai-chau-da-nang/122850288.htm"
+        },
+        {
+            "name": "Winner V3 đủ phụ kiện theo xe lốp zin theo xe",
+            "year": 2023,
+            "type": "Xe số",
+            "status": "Đã sử dụng",
+            "price": "28.800.000 đ",
+            "time": "12 giờ trước",
+            "location": "Quận Hải Châu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-hai-chau-da-nang/122850188.htm"
+        },
+        {
+            "name": "gold",
+            "rating": 4,
+            "sold": 104,
+            "selling": 3,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-hai-chau-da-nang/122850188.htm"
+        },
+        {
+            "name": "AB 2018 khoá bếp ga biển 43 máy móc rin ngon chạy",
+            "year": 2018,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "29.500.000 đ",
+            "time": "12 giờ trước",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122232925.htm"
+        },
+        {
+            "name": "Nhật Tình",
+            "rating": 4.7,
+            "sold": 54,
+            "selling": 66,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122232925.htm"
+        },
+        {
+            "name": "Ab 2val 2022 keng , đã lên led audi , máy rin",
+            "year": 2022,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "36.000.000 đ",
+            "time": "13 giờ trước",
+            "location": "Quận Hải Châu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-hai-chau-da-nang/122849656.htm"
+        },
+        {
+            "name": "Dương Quang Thành",
+            "rating": 5,
+            "sold": 0,
+            "selling": 1,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-hai-chau-da-nang/122849656.htm"
+        },
+        {
+            "name": "Vision 2022 biển 43. Dc 386 ngô quyền",
+            "year": 2022,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "29.500.000 đ",
+            "time": "13 giờ trước",
+            "location": "Quận Sơn Trà",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-son-tra-da-nang/122706559.htm"
+        },
+        {
+            "name": "AN chuyên mua bán xe máy cũ tại 386 ngô quyền sơn trà đà nẵng BÁN XE TRẢ GÓP",
+            "rating": 5,
+            "sold": 956,
+            "selling": 23,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-son-tra-da-nang/122706559.htm"
+        },
+        {
+            "name": "siêu phẩm lead 2013 cuối đời siêu đẹp xe rin",
+            "year": 2013,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "11.500.000 đ",
+            "time": "13 giờ trước",
+            "location": "Quận Hải Châu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-hai-chau-da-nang/120428857.htm"
+        },
+        {
+            "name": "nguyễn thị hà",
+            "rating": 4,
+            "sold": 1,
+            "selling": 46,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-hai-chau-da-nang/120428857.htm"
+        },
+        {
+            "name": "Vision 2018 khoá bếp ga biển 43 máy móc rin ngon c",
+            "year": 2018,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "26.500.000 đ",
+            "time": "13 giờ trước",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/120666602.htm"
+        },
+        {
+            "name": "Nhật Tình",
+            "rating": 4.7,
+            "sold": 54,
+            "selling": 66,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/120666602.htm"
+        },
+        {
+            "name": "Winerx 2021 phanh Abs. Sơn zin nguyên con",
+            "year": 2021,
+            "type": "Tay côn/Moto",
+            "status": "Đã sử dụng",
+            "price": "23.500.000 đ",
+            "time": "16 giờ trước",
+            "location": "Quận Sơn Trà",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-son-tra-da-nang/122775222.htm"
+        },
+        {
+            "name": "AN chuyên mua bán xe máy cũ tại 386 ngô quyền sơn trà đà nẵng BÁN XE TRẢ GÓP",
+            "rating": 5,
+            "sold": 956,
+            "selling": 23,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-son-tra-da-nang/122775222.htm"
+        },
+        {
+            "name": "Scoopy 12/2021 nhập thái mẫu hiếm khoá smatkey",
+            "year": 2022,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "52.000.000 đ",
+            "time": "16 giờ trước",
+            "location": "Quận Thanh Khê",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/121497722.htm"
+        },
+        {
+            "name": "Song Vo",
+            "rating": 4.7,
+            "sold": 208,
+            "selling": 34,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/121497722.htm"
+        },
+        {
+            "name": "Ab 4val 5.2023 biển 43. Dc 386 ngô quyền",
+            "year": 2023,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "38.500.000 đ",
+            "time": "16 giờ trước",
+            "location": "Quận Sơn Trà",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-son-tra-da-nang/122186342.htm"
+        },
+        {
+            "name": "AN chuyên mua bán xe máy cũ tại 386 ngô quyền sơn trà đà nẵng BÁN XE TRẢ GÓP",
+            "rating": 5,
+            "sold": 956,
+            "selling": 23,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-son-tra-da-nang/122186342.htm"
+        },
+        {
+            "name": "Win ne X đk 2023 thắng ABS xe đẹp máy zin em 9 chu",
+            "year": 2023,
+            "type": "Xe số",
+            "status": "Đã sử dụng",
+            "price": "23.500.000 đ",
+            "time": "16 giờ trước",
+            "location": "Quận Thanh Khê",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122730763.htm"
+        },
+        {
+            "name": "A Dũng",
+            "rating": 4.6,
+            "sold": 7,
+            "selling": 49,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122730763.htm"
+        },
+        {
+            "name": "AB tháng 12 2024 mới mua được 2 tháng biển 43 odo",
+            "year": 2024,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "42.500.000 đ",
+            "time": "16 giờ trước",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122779711.htm"
+        },
+        {
+            "name": "Nhật Tình",
+            "rating": 4.7,
+            "sold": 54,
+            "selling": 66,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122779711.htm"
+        },
+        {
+            "name": "Sh 2022 odo 15 ngàn cây biển 43 máy móc rin ngon c",
+            "year": 2022,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "68.500.000 đ",
+            "time": "17 giờ trước",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122508661.htm"
+        },
+        {
+            "name": "Nhật Tình",
+            "rating": 4.7,
+            "sold": 54,
+            "selling": 66,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122508661.htm"
+        },
+        {
+            "name": "Xe hãng HonDa Wave S cục máy Rin siêu ngon êm ru",
+            "year": 2008,
+            "type": "Xe số",
+            "status": "Đã sử dụng",
+            "price": "4.900.000 đ",
+            "time": "17 giờ trước",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122779887.htm"
+        },
+        {
+            "name": "Minh Quân",
+            "rating": 4.8,
+            "sold": 35,
+            "selling": 7,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122779887.htm"
+        },
+        {
+            "name": "CẦN BÁN VARIO 160 SIÊU LƯỚT",
+            "year": 2023,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "38.500.000 đ",
+            "time": "17 giờ trước",
+            "location": "Quận Hải Châu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-hai-chau-da-nang/122824594.htm"
+        },
+        {
+            "name": "CHUYÊN BÁN XE LƯỚT",
+            "rating": 4.9,
+            "sold": 98,
+            "selling": 2,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-hai-chau-da-nang/122824594.htm"
+        },
+        {
+            "name": "AB đk 15 khoá chip nước sien Zin chính chủ sử dung",
+            "year": 2015,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "21.800.000 đ",
+            "time": "17 giờ trước",
+            "location": "Quận Thanh Khê",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122847557.htm"
+        },
+        {
+            "name": "A Dũng",
+            "rating": 4.6,
+            "sold": 7,
+            "selling": 49,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122847557.htm"
+        },
+        {
+            "name": "Winner V3 2023 phanh ABS odo 11 ngàn cây cặp lốp r",
+            "year": 2023,
+            "type": "Tay côn/Moto",
+            "status": "Đã sử dụng",
+            "price": "31.500.000 đ",
+            "time": "17 giờ trước",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/121004435.htm"
+        },
+        {
+            "name": "Nhật Tình",
+            "rating": 4.7,
+            "sold": 54,
+            "selling": 66,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/121004435.htm"
+        },
+        {
+            "name": "Xe Air Blade 2014, xe chính chủ biển 43.",
+            "year": 2014,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "18.000.000 đ",
+            "time": "17 giờ trước",
+            "location": "Quận Sơn Trà",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-son-tra-da-nang/122847292.htm"
+        },
+        {
+            "name": "Đinh Thị Thu",
+            "rating": null,
+            "sold": 1,
+            "selling": 1,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-son-tra-da-nang/122847292.htm"
+        },
+        {
+            "name": "Winner V3 2023 phanh ABS biển 92D1 95620",
+            "year": 2023,
+            "type": "Tay côn/Moto",
+            "status": "Đã sử dụng",
+            "price": "27.500.000 đ",
+            "time": "17 giờ trước",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122733412.htm"
+        },
+        {
+            "name": "Nhật Tình",
+            "rating": 4.7,
+            "sold": 54,
+            "selling": 66,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122733412.htm"
+        },
+        {
+            "name": "SH nhập ý 2012 số máy 106 biển 43 máy móc rin chưa",
+            "year": 2012,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "105.000.000 đ",
+            "time": "17 giờ trước",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/119315771.htm"
+        },
+        {
+            "name": "Nhật Tình",
+            "rating": 4.7,
+            "sold": 54,
+            "selling": 66,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/119315771.htm"
+        },
+        {
+            "name": "AB 2019 khoá bếp ga biển 43AF 03802 có trả góp",
+            "year": 2019,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "30.500.000 đ",
+            "time": "17 giờ trước",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122727253.htm"
+        },
+        {
+            "name": "Nhật Tình",
+            "rating": 4.7,
+            "sold": 54,
+            "selling": 66,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122727253.htm"
+        },
+        {
+            "name": "AB 2021 biển 43H1 30871 có trả góp kể cả nợ xấu",
+            "year": 2021,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "36.500.000 đ",
+            "time": "18 giờ trước",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122808745.htm"
+        },
+        {
+            "name": "Nhật Tình",
+            "rating": 4.7,
+            "sold": 54,
+            "selling": 66,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122808745.htm"
+        },
+        {
+            "name": "AB 2013 biển 43F1 58360 có trả góp kể cả nợ xấu",
+            "year": 2013,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "20.500.000 đ",
+            "time": "18 giờ trước",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122703115.htm"
+        },
+        {
+            "name": "Nhật Tình",
+            "rating": 4.7,
+            "sold": 54,
+            "selling": 66,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122703115.htm"
+        },
+        {
+            "name": "CB150r máy rin em siêu bốc biển 43 chíh chủ",
+            "year": 2021,
+            "type": "Tay côn/Moto",
+            "status": "Đã sử dụng",
+            "price": "62.500.000 đ",
+            "time": "18 giờ trước",
+            "location": "Quận Thanh Khê",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122846162.htm"
+        },
+        {
+            "name": "Duc tuan",
+            "rating": 3.8,
+            "sold": 10,
+            "selling": 31,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122846162.htm"
+        },
+        {
+            "name": "Không có nhu cầu cần bán xe. Đẹp nguyên zin.",
+            "year": 2010,
+            "type": "Tay côn/Moto",
+            "status": "Đã sử dụng",
+            "price": "20.000.000 đ",
+            "time": "18 giờ trước",
+            "location": "Quận Hải Châu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-hai-chau-da-nang/122811539.htm"
+        },
+        {
+            "name": "Tú",
+            "rating": null,
+            "sold": 1,
+            "selling": 1,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-hai-chau-da-nang/122811539.htm"
+        },
+        {
+            "name": "Winner X 2020 phanh ABS biển 43 máy móc rin ngon c",
+            "year": 2020,
+            "type": "Tay côn/Moto",
+            "status": "Đã sử dụng",
+            "price": "25.500.000 đ",
+            "time": "18 giờ trước",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122370736.htm"
+        },
+        {
+            "name": "Nhật Tình",
+            "rating": 4.7,
+            "sold": 54,
+            "selling": 66,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122370736.htm"
+        },
+        {
+            "name": "sh 125 11/2015 bs 43 có gl xe khác",
+            "year": 2016,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "43.500.000 đ",
+            "time": "hôm qua",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122252727.htm"
+        },
+        {
+            "name": "Duc Tran",
+            "rating": 4.4,
+            "sold": 81,
+            "selling": 12,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122252727.htm"
+        },
+        {
+            "name": "Scoopy siêu đẹp - Trả trước chỉ 7.000.000 nhận xe",
+            "year": 2020,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "30.500.000 đ",
+            "time": "Tin ưu tiên",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122932162.htm#px=SR-stickyad-[PO-1][PL-top]"
+        },
+        {
+            "name": "Xe Máy Đức Vũ",
+            "rating": 4.7,
+            "sold": 834,
+            "selling": 23,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122932162.htm#px=SR-stickyad-[PO-1][PL-top]"
+        },
+        {
+            "name": "Vison 2019 khoá ga đen siêu đẹp nợ xấu đưa 9 triêu",
+            "year": 2019,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "26.500.000 đ",
+            "time": "Tin ưu tiên",
+            "location": "Quận Thanh Khê",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122872522.htm#px=SR-stickyad-[PO-2][PL-top]"
+        },
+        {
+            "name": "Nguyễn Hải",
+            "rating": 4.8,
+            "sold": 168,
+            "selling": 22,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122872522.htm#px=SR-stickyad-[PO-2][PL-top]"
+        },
+        {
+            "name": "Cần nhượng lại em vario150cc ❌GÓP bao đậu nợ 6",
+            "year": 2021,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "34.500.000 đ",
+            "time": "2 giờ trước",
+            "location": "Quận Thanh Khê",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122940969.htm"
+        },
+        {
+            "name": "Duc tuan",
+            "rating": 3.8,
+            "sold": 10,
+            "selling": 30,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122940969.htm"
+        },
+        {
+            "name": "Honda ab 2020 khóa ga có trả góp trao đổi xe",
+            "year": 2020,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "33.500.000 đ",
+            "time": "3 giờ trước",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/120028139.htm"
+        },
+        {
+            "name": "Hoàng Ánh bán trả góp 66 Nguyễn Phong Sắc Đà Nẵng",
+            "rating": 4.5,
+            "sold": 40,
+            "selling": 73,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/120028139.htm"
+        },
+        {
+            "name": "Honda ab 2021 bs 43 khóa ga có trả góp trao đổi",
+            "year": 2021,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "36.500.000 đ",
+            "time": "4 giờ trước",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/120996273.htm"
+        },
+        {
+            "name": "Hoàng Ánh bán trả góp 66 Nguyễn Phong Sắc Đà Nẵng",
+            "rating": 4.5,
+            "sold": 40,
+            "selling": 73,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/120996273.htm"
+        },
+        {
+            "name": "Futer neo 2006 dọn full đồ mới bán hoặc gl xe khac",
+            "year": 2006,
+            "type": "Xe số",
+            "status": "Đã sử dụng",
+            "price": "28.500.000 đ",
+            "time": "4 giờ trước",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122911118.htm"
+        },
+        {
+            "name": "N",
+            "rating": null,
+            "sold": 3,
+            "selling": 2,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122911118.htm"
+        },
+        {
+            "name": "Cần bán xe honda shadow 750",
+            "year": 2016,
+            "type": "Tay côn/Moto",
+            "status": "Đã sử dụng",
+            "price": "105.000.000 đ",
+            "time": "4 giờ trước",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122938228.htm"
+        },
+        {
+            "name": "Trần quốc minh",
+            "rating": null,
+            "sold": 0,
+            "selling": 1,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122938228.htm"
+        },
+        {
+            "name": "AB đời mới 2021 khóa ga bs 43 có trả góp trao đổi",
+            "year": 2021,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "36.500.000 đ",
+            "time": "4 giờ trước",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/119900537.htm"
+        },
+        {
+            "name": "Hoàng Ánh bán trả góp 66 Nguyễn Phong Sắc Đà Nẵng",
+            "rating": 4.5,
+            "sold": 40,
+            "selling": 73,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/119900537.htm"
+        },
+        {
+            "name": "Honda ablade 4 van 2023 bs 43 có trả góp trao đổi",
+            "year": 2023,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "41.500.000 đ",
+            "time": "5 giờ trước",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122784225.htm"
+        },
+        {
+            "name": "Hoàng Ánh bán trả góp 66 Nguyễn Phong Sắc Đà Nẵng",
+            "rating": 4.5,
+            "sold": 40,
+            "selling": 73,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122784225.htm"
+        },
+        {
+            "name": "Honda sh mode 2018 Biển 43 có trả góp trao đổi",
+            "year": 2018,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "42.500.000 đ",
+            "time": "5 giờ trước",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/121538846.htm"
+        },
+        {
+            "name": "Hoàng Ánh bán trả góp 66 Nguyễn Phong Sắc Đà Nẵng",
+            "rating": 4.5,
+            "sold": 40,
+            "selling": 73,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/121538846.htm"
+        },
+        {
+            "name": "Xe airblade",
+            "year": 2014,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "32.000.000 đ",
+            "time": "5 giờ trước",
+            "location": "Quận Sơn Trà",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-son-tra-da-nang/122937392.htm"
+        },
+        {
+            "name": "chung dang",
+            "rating": null,
+            "sold": 7,
+            "selling": 1,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-son-tra-da-nang/122937392.htm"
+        },
+        {
+            "name": "cầm đồ thanh lý winx góp k cần trả trc",
+            "year": 2019,
+            "type": "Tay côn/Moto",
+            "status": "Đã sử dụng",
+            "price": "20.500.000 đ",
+            "time": "5 giờ trước",
+            "location": "Quận Thanh Khê",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/121730120.htm"
+        },
+        {
+            "name": "CHUYÊN BÁN GÓP NỢ XẤU NHANH GỌN",
+            "rating": 3.9,
+            "sold": 0,
+            "selling": 2,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/121730120.htm"
+        },
+        {
+            "name": "Honda sh 2018 bs 92 có trả góp trao đổi",
+            "year": 2018,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "56.000.000 đ",
+            "time": "5 giờ trước",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122752057.htm"
+        },
+        {
+            "name": "Hoàng Ánh bán trả góp 66 Nguyễn Phong Sắc Đà Nẵng",
+            "rating": 4.5,
+            "sold": 40,
+            "selling": 73,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122752057.htm"
+        },
+        {
+            "name": "Honda ab 2012 bs 43 siêu mới có trả góp trao đổi",
+            "year": 2012,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "13.500.000 đ",
+            "time": "5 giờ trước",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122775957.htm"
+        },
+        {
+            "name": "Hoàng Ánh bán trả góp 66 Nguyễn Phong Sắc Đà Nẵng",
+            "rating": 4.5,
+            "sold": 40,
+            "selling": 73,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122775957.htm"
+        },
+        {
+            "name": "Honda sh 2019 150 abs bs 43 có trả góp trao đổi",
+            "year": 2019,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "76.000.000 đ",
+            "time": "6 giờ trước",
+            "location": "Quận Cẩm Lệ",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122751926.htm"
+        },
+        {
+            "name": "Hoàng Ánh bán trả góp 66 Nguyễn Phong Sắc Đà Nẵng",
+            "rating": 4.5,
+            "sold": 40,
+            "selling": 73,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-cam-le-da-nang/122751926.htm"
+        },
+        {
+            "name": "Vision Đen mù máy zin êm.Áo đẹp",
+            "year": 2017,
+            "type": "Tay ga",
+            "status": "Đã sử dụng",
+            "price": "21.500.000 đ",
+            "time": "6 giờ trước",
+            "location": "Quận Thanh Khê",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122936292.htm"
+        },
+        {
+            "name": "Song Vo",
+            "rating": 4.7,
+            "sold": 208,
+            "selling": 35,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122936292.htm"
+        },
+        {
+            "name": "Anpha 2024 Trắng zin chạy 3000km như mới",
+            "year": 2024,
+            "type": "Xe số",
+            "status": "Đã sử dụng",
+            "price": "17.000.000 đ",
+            "time": "6 giờ trước",
+            "location": "Quận Thanh Khê",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122936262.htm"
+        },
+        {
+            "name": "Song Vo",
+            "rating": 4.7,
+            "sold": 208,
+            "selling": 35,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/122936262.htm"
+        },
+    
+        {
+            "name": "bán xe cup 125cc mới như trong hãng dắt ra",
+            "year": 2024,
+            "type": "Xe số",
+            "status": "Đã sử dụng",
+            "price": "111.000.000 đ",
+            "time": "4 tuần trước",
+            "location": "Quận Sơn Trà",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-son-tra-da-nang/122535777.htm"
+        },
+        {
+            "name": "nguyen thai an",
+            "rating": null,
+            "sold": 0,
+            "selling": 1,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-son-tra-da-nang/122535777.htm"
+        },
+        {
+            "name": "HONDA CBR150R - NHẬP THÁI LAN ZIN ĐẸP",
+            "year": 2013,
+            "type": "Tay côn/Moto",
+            "status": "Đã sử dụng",
+            "price": "27.000.000 đ",
+            "time": "9 giờ trước",
+            "location": "Quận Liên Chiểu",
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122523530.htm"
+        },
+        {
+            "name": "Xe Máy Đức Vũ",
+            "rating": 4.7,
+            "sold": 834,
+            "selling": 23,
+            "url": "https://xe.chotot.com/mua-ban-xe-may-quan-lien-chieu-da-nang/122523530.htm"
+        }
+    ]
+}
