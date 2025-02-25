@@ -44,10 +44,26 @@ Data requirement:
 - Kết quả là chính xác hay khoảng? -> khoảng
 
 --------------------------------------------------------------------------------
-Lab 2:
-Quang + Huy: tiếp tục cào data cả cũ và mới ở trang web chotot
-Vũ + Kiệt: tìm 1 web khác (kiểu như chotot) rồi sử dụng api để cào data
-Ân: selenium
--> sau khi cào xong tạo 1 folder rồi commit lên repository
--> để tí đi hỏi thử lab 2 trình bày gì rồi update tiếp lên đây
----> deadline 22h 20/2
+Slide lab 2:
+- Trả lời 5W|1H:
+    + What: thu thập những data nào 
+	-> ...
+	-> mục tiêu: có những data chất lượng cao
+    + Why: tại sao lại lấy những data đó?
+	-> dữ liệu là nền tảng quan trọng để mô hình có thể học và đưa ra kết quả tốt
+	-> cố gắng lấy thật nhiều data để tránh bị overfitting hoặc underfitting
+    + When: láy data trong khoảng thời gian nào?
+	-> tốt nhất là trong khoảng từ 1-3 năm, 4-5 năm ở mức trung bình, >5 thì không nên lấy
+	-> dữ liệu cũ thì thông tin cũ, những đồ cũ để bán mà còn cũ nữa thì...
+    + Where: lấy data từ đâu?
+	-> các trang web chính hãng: xe mới
+	-> các sàn thương mại điện tử: xe cũ
+	-> tất cả những dữ liệu công khai...
+    + How: lấy data như thế nào?
+	-> sử dụng web scraping, selenium
+	-> Huy demo giải thích chỗ này luôn nhé
+	    - giải thích từng dòng code nhé, dử dụng cái gì, dùng như nào, dùng thì có lợi ích gì
+- Quang làm slide chính với Kiệt + Vũ
+- Vũ trình bày what & why, Kiệt when & where, Huy how
+    -> trong lúc trình bày nên lồng ghép các kiến thức thực tế, ví dụ như mình dùng cái công nghệ này thì tới chỗ kia nó sẽ hơi khó vì ko có gì hoàn hảo, yêu cầu ko nói bậy hoặc according chatgpt.
+- Ân ngồi chơi nhé
