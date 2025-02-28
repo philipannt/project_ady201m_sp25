@@ -71,3 +71,8 @@ Slide lab 2:
 --------------------------------------------------------------------------------
 Lab 3:
 - tạo database trên cloud
+
+- Quang: tạo content về data processing
+- Kiệt: tạo content về data storage
+-> Huy code về nội dung cả 2 phần
+- Vũ: slide
