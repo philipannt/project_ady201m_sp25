@@ -13,7 +13,7 @@ Bước 5: chia tập dữ liệu
 
 Kiểm tra xem mô hình học tốt hay chỉ nhớ dữ liệu (tránh overfitting).
 Đảm bảo mô hình có thể tổng quát hóa cho dữ liệu mới.
-
+Chia dữ liệu như sau:
 Tập huấn luyện (train set): 80% dữ liệu, dùng để dạy mô hình.
 Tập kiểm tra (test set): 20% dữ liệu, dùng để đánh giá mô hình.  
 	cách làm : sử dụng thư viện sklearn.model_selection, train_test_split
