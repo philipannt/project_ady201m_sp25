@@ -67,3 +67,7 @@ Slide lab 2:
 - Vũ trình bày what & why, Kiệt when & where, Huy how
     -> trong lúc trình bày nên lồng ghép các kiến thức thực tế, ví dụ như mình dùng cái công nghệ này thì tới chỗ kia nó sẽ hơi khó vì ko có gì hoàn hảo, yêu cầu ko nói bậy hoặc according chatgpt.
 - Ân ngồi chơi nhé
+
+--------------------------------------------------------------------------------
+Lab 3:
+- tạo database trên cloud
