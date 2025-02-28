@@ -68,11 +68,16 @@ Slide lab 2:
     -> trong lúc trình bày nên lồng ghép các kiến thức thực tế, ví dụ như mình dùng cái công nghệ này thì tới chỗ kia nó sẽ hơi khó vì ko có gì hoàn hảo, yêu cầu ko nói bậy hoặc according chatgpt.
 - Ân ngồi chơi nhé
 
+link: webike, xeuytin, yamaha, vespa, sym
+-> lấy code từ folder code crawl
+-> update tất cả kết quả vào folder result, đặt tên theo web.json/.csv
+
 --------------------------------------------------------------------------------
 Lab 3:
 - tạo database trên cloud
 
 - Quang: tạo content về data processing
 - Kiệt: tạo content về data storage
+    -> deadline 19h 1/3
 -> Huy code về nội dung cả 2 phần
 - Vũ: slide
