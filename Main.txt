@@ -78,6 +78,13 @@ Lab 3:
 
 - Quang: tạo content về data processing
 - Kiệt: tạo content về data storage
+	-> lưu dữ liệu ở cloud. 
+	-> Sử dụng SQL để thao tác với dữ liệu
+	-> lợi ích khi dùng cloud:
+		-được thầy cộng điểm
+		-cho nhiều người access được
+		-có thể lưu cả dữ liệu có cấu trúc hay phi cấu trúc đều được
+		-có thể tự mở rộng khi data quá lớn
     -> deadline 19h 1/3
 -> Huy code về nội dung cả 2 phần
 - Vũ: slide
