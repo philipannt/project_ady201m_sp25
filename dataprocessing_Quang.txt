@@ -1,0 +1,12 @@
+Các bước để xử lý dữ liệu trước khi bỏ vào storage
+Bước 1: Đọc dữ liệu từ file ( sử dụng thư viện pandas và cú pháp read_csv hoặc read_json)
+
+Bước 2: Làm sạch dữ liệu để tránh dữ liệu bị lặp, thiếu dữ liệu hoặc không cần thiết
+
+Bước 3: Chuyển đổi dữ liệu( biến các dữ liệu về dạng dễ hiểu cho máy nó học) sử dụng sklearn.preprocessing để import các thư viện khác LabelEncoder, MinMaxScaler, StandardScaler việc chuyển đổi này giúp cho dữ liệu dễ xử lý hơn
+
+Bước 4: Tích hợp dữ liệu từ nhiều nguồn khác nhau ( dùng dể gộp các dữ liệu từ nhiều file thành 1 để tránh kh phải gán từng file vào ) 
+
+Bước 5: giảm chiều dữ liệu bằng cách dùng thư viện sklearn.model_selection, train_test_split, PCA, LDA  nhằm loại bỏ dữ liệu dư thừa 
+
+Bước 6: Lưu trữ dữ liệu vào SQL
