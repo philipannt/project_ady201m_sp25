@@ -43,7 +43,7 @@ def scrape_webike(url, pages):
 
             product_info = {}
             rows = soup.find_all("tr")
-
+# Đoạn này nó bị rối loạn data chút, nhưng mà chăc ko sao, chạy được :)
             for row in rows:
                 label_tag = row.find('label')
                 value_tags = row.find_all('td')
