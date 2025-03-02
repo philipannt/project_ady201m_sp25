@@ -19,26 +19,21 @@ def scrape_chotot(url, pages):
         product_links = []
         product_list = []
         
-        # Tạo driver
         options = webdriver.ChromeOptions()
         options.add_argument("--headless") 
-        # Gọi driver của chrome
         driver = webdriver.Chrome(options=options)
         
-        # Chạy vòng lặp để có thể lấy link của các trang page với cấu trúc {url}?page={x}
         for x in range(1, pages + 1):
             url_link = f"{url}?page={x}"
             r = requests.get(url_link, headers=headers)
             soup = BeautifulSoup(r.content, "lxml")
             products = soup.find_all("a", href=True, itemprop="item")
             
-        # Lấy thông tin của từng sản phẩm
             for item in products:
                 link = item['href']
-                link = url + link if link.startswith("/") else link # Thêm url + link đã lấy nếu bắt đầu bằng /
+                link = url + link if link.startswith("/") else link 
                 product_links.append(link)
         
-        # Mở từng link và lấy thông tin
         for link in product_links:
             driver.get(link)
             time.sleep(3)
