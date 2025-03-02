@@ -68,7 +68,7 @@ Slide lab 2:
     -> trong lúc trình bày nên lồng ghép các kiến thức thực tế, ví dụ như mình dùng cái công nghệ này thì tới chỗ kia nó sẽ hơi khó vì ko có gì hoàn hảo, yêu cầu ko nói bậy hoặc according chatgpt.
 - Ân ngồi chơi nhé
 
-link: webike, xeuytin, yamaha, vespa, sym
+link: webike, xeuytin, yamaha, vespa, sym ( xong webike, xeuytin gần xong from Huywithlove)
 -> lấy code từ folder code crawl
 -> update tất cả kết quả vào folder result, đặt tên theo web.json/.csv
 
