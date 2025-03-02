@@ -20,7 +20,7 @@ def scrape_chotot(url, pages):
         product_list = []
         
         options = webdriver.ChromeOptions()
-        options.add_argument("--headless") 
+        options.add_argument("--headless")  # Xoa dong nay neu muon thay duoc qua trinh thao tac cua selenium voi web
         driver = webdriver.Chrome(options=options)
         
         for x in range(1, pages + 1):
