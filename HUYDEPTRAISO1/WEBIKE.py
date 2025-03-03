@@ -32,8 +32,6 @@ def scrape_webike(url, pages):
         
         for link in links:
             driver.get(link)
-            time.sleep(4)
-
             soup = BeautifulSoup(driver.page_source, "lxml")
             name_tag = soup.find("h1", class_="module_title")
             name = name_tag.text.strip() if name_tag else "Unknown"
