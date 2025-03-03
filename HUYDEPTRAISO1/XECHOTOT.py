@@ -36,7 +36,7 @@ def scrape_chotot(url, pages):
         
         for link in product_links:
             driver.get(link)
-            time.sleep(3)
+        
             
             soup = BeautifulSoup(driver.page_source, "lxml")
             name = soup.find("title").text.strip()
