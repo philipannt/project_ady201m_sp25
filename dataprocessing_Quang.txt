@@ -27,6 +27,76 @@ vd: nếu dữ liệu là số nhưng mà lại bản chất của nó lại là
 
 Bước 4: Lưu trữ dữ liệu vào SQL
 
+Khi bỏ vào SQL thì không phải cái nào cũng cần thiết và sau những bước lọc ở trên thì ta chỉ giữ lại các trường như sau 
+  "name"    "year"    "type"    "status"    "price"    "kilometers"
+
+name ta cần dữ lại để biết được tên xe là gì
+
+year để xác định được xe là đời bao nhiêu vì có rất nhiều chiếc ab nhưng mỗi năm thì lại một mẫu mã một động cơ khác
+
+type để phân loại các dòng xe côn tay, ga , số giúp cho người dùng có thể dễ dàng biết được mình đang cần loại xe nào( cx có thể một số người nói là nhìn vô là biết nhưng mà đối với những người mới những người chưa biết gì về xe thì nó sẽ khá có ích ) 
+
+status ta giữ lại trường này vì khi nói về xe cũ thì chắc phải có vấn đề gì đấy hoặc chủ xe muốn lên đời mới bán đi và khi này status sẽ cho ta biết %xe còn zin còn mới ra sao
+
+price ta giữ lại để xác định được giá thị trường để so sánh với các xe cùng đời cùng odo
+
+kilometers thì để xác định được xe đã đi được bao nhiêu km vì từ số km mà ta có thể biết được độ cũ mới của xe
+
+Ngoài ra để việc quan sát và xử lý dữ liệu dễ hơn thì ta cx có thể biến đổi một số dòng như type loại xe thành 123 tương ứng cho côn tay ga số
+
+ví dụ 
+
+
+"""
+import pandas as pd
+
+# Dữ liệu mẫu
+data = [
+    {"name": "Winner X", "year": 2022, "type": "côn tay", "status": "Mới", "price": 40000000, "kilometers": 1000},
+    {"name": "SH 150i", "year": 2021, "type": "ga", "status": "Cũ", "price": 90000000, "kilometers": 5000},
+    {"name": "Wave Alpha", "year": 2020, "type": "số", "status": "Cũ", "price": 17000000, "kilometers": 10000}
+]
+
+# Chuyển đổi type thành số
+type_mapping = {"côn tay": 1, "ga": 2, "số": 3}
+
+for entry in data:
+    entry["type"] = type_mapping.get(entry["type"], None)  # None nếu không khớp
+
+# Tạo DataFrame để xem kết quả
+df = pd.DataFrame(data)
+print(df)
+"""
+
+
+"""
+import sqlite3
+
+def update_database():
+    # Kết nối đến SQLite3 (file database của bạn)
+    conn = sqlite3.connect("xe_may.db")  # Đổi thành tên file DB của bạn
+    cursor = conn.cursor()
+
+    # Câu lệnh SQL cập nhật dữ liệu
+    update_query = """
+    UPDATE xe_may
+    SET type = CASE
+        WHEN type = 'côn tay' THEN 1
+        WHEN type = 'ga' THEN 2
+        WHEN type = 'số' THEN 3
+        ELSE NULL
+    END;
+    """
+
+    cursor.execute(update_query)
+    conn.commit()
+    conn.close()
+
+# Gọi hàm cập nhật
+update_database()
+"""
+
+
 ví dụ cách làm:
 """
 import sqlite3
