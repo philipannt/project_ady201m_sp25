@@ -5,7 +5,6 @@ from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 import requests
 import json
-import time
 
 
 # Tạo Scrape bằng selenium kết hợp beautisoup
@@ -20,29 +19,45 @@ def scrape_chotot(url, pages):
         product_list = []
         
         options = webdriver.ChromeOptions()
-        options.add_argument("--headless")  # Xoa dong nay neu muon thay duoc qua trinh thao tac cua selenium voi web
+        options.add_argument("--headless")
         driver = webdriver.Chrome(options=options)
         
         for x in range(1, pages + 1):
+
             url_link = f"{url}?page={x}"
             r = requests.get(url_link, headers=headers)
             soup = BeautifulSoup(r.content, "lxml")
-            products = soup.find_all("a", href=True, itemprop="item")
+            products = soup.find_all("a", href=True, itemprop="item", class_="cebeqpz")
             
             for item in products:
                 link = item['href']
                 link = url + link if link.startswith("/") else link 
                 product_links.append(link)
+            
         
         for link in product_links:
+
             driver.get(link)
-        
+            # time.sleep(3)
             
             soup = BeautifulSoup(driver.page_source, "lxml")
             name = soup.find("title").text.strip()
             
             info_spans = soup.find_all("span", class_="bwq0cbs")
             info_list = [span.text.strip() for span in info_spans]
+
+            year = info_list[0] if len(info_list) > 0 else "NONE"
+
+            km = info_list[1] if len(info_list) > 1 else "NONE"
+
+            nation = info_list[2] if len(info_list) > 2 else "NONE"
+
+            location = info_list[3] if len(info_list) > 3 else "NONE"
+
+
+            time =info_list[4] if len(info_list) > 4 else "NONE"
+
+
             
             price_tag = soup.find("b", class_="p26z2wb")
             price = price_tag.text.strip() if price_tag else "Price not available"
@@ -53,13 +68,13 @@ def scrape_chotot(url, pages):
 
             product = {
                 "name": name,
-                "info": {
-                    "Year of manufacture": info_list[0] if len(info_list) > 0 else "NONE",
-                    "Kilometers driven": info_list[1] if len(info_list) > 1 else "NONE",
-                    "Nationality": info_list[2] if len(info_list) > 2 else "NONE",
-                    "Location": info_list[3] if len(info_list) > 3 else "NONE",
-                    "Listing time": info_list[4] if len(info_list) > 4 else "NONE"
-                },
+             
+                "Year_of_manufacture": year,
+                "Kilometers_driven": km,
+                "Nationality": nation,
+                "Location": location,
+                "Listing_time": time,
+                
                 "price": price,
                 "price_min": price_min,
                 "price_max": price_max
@@ -119,4 +134,3 @@ def create_gui():
 
 if __name__ == "__main__":
     create_gui()
-
