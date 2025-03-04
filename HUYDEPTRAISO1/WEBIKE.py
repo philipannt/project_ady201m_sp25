@@ -86,7 +86,7 @@ def scrap_gui():
     title = tk.Label(root, text="WEBIKE Motorcycle Scraper", font=("Arial", 16))
     title.place(width=400, height=30, x=8, y=20)
     
-    page_label = tk.Label(root, text="Number of pages to scrape:")
+    page_label = tk.Label(root, text="Number of products to scrape:")
     page_label.place(width=200, height=30, x=100, y=60)
 
     url_label = tk.Label(root, text="Enter the URL:")
