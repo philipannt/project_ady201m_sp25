@@ -83,4 +83,7 @@ Lab 3:
 - Vũ: slide
 - Ân: cloud
 
-- crawl về đưa trực tiếp lên db, không lưu dưới dạng json nữa
+- mở env var
+- crawl -> df
+- create db cloud
+- insert from df -> db cloud
