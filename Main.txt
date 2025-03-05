@@ -83,7 +83,6 @@ Lab 3:
 - Vũ: slide
 - Ân: cloud
 
-- mở env var
 - crawl -> df
 - create db cloud
 - insert from df -> db cloud
