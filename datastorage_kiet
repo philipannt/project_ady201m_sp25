@@ -2,6 +2,6 @@ data storage:
 -> lưu dữ liệu ở SQL server.
     -sử dụng thư viện pyodbc trong python để lưu dữ liệu trên SQL server rồi đưa lên cloud sau.
     -data cào về sẽ ở dạng file JSON code python từ file JSON bỏ dữ liệu vào SQL server
--> Sử dụng SQL server managerment studio để thao tác và truy vấn với dữ liệu
+-> Sử dụng MYSQL để thao tác và truy vấn với dữ liệu
     -có sẵn trên máy rồi nên ko cần tải
-    -SQL server managerment studio không hỗ trợ khi chuyển data từ SQL server sang cloud
+    -MYSQL không hỗ trợ khi chuyển data từ SQL server sang cloud
