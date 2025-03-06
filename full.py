@@ -74,6 +74,69 @@ def scrape_chotot(url, pages):
     except:
         return "Crawl error."
 
+def scrape_webike(url, pages):
+    try:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+        }
+
+        option = webdriver.ChromeOptions()
+        driver = webdriver.Chrome(options=option)
+
+        links = []
+        products = []
+
+        for x in range(1, pages + 1):
+            url_link = f"{url}?page={x}"
+            r = requests.get(url_link, headers=headers)
+            soup = BeautifulSoup(r.content, "lxml")
+            product_items = soup.find_all("div", class_="list-product")
+
+            for item in product_items:
+                link = item.find('a')['href'] if item.find('a') else None
+                if link:
+                    link = url + link if link.startswith("/") else link
+                    links.append(link)
+
+        for link in links:
+            driver.get(link)
+            soup = BeautifulSoup(driver.page_source, "lxml")
+            name_tag = soup.find("h1", class_="module_title")
+            name = name_tag.text.strip() if name_tag else "Unknown"
+
+            price_tag = soup.find("big", class_="price")
+            price = price_tag.text.strip() if price_tag else "Price not available"
+
+            product_info = {}
+            rows = soup.find_all("tr")
+            for row in rows:
+                label_tag = row.find('label')
+                value_tags = row.find_all('td')
+
+                if label_tag and value_tags:
+                    label = label_tag.get_text(strip=True)
+                    values = [td.get_text(strip=True) for td in value_tags if td.get_text(strip=True)]
+
+                    if len(values) > 1:
+                        key_value_pairs = dict(zip(values[::2], values[1::2]))
+                        product_info.update(key_value_pairs)
+                    else:
+                        product_info[label] = values[0] if values else "-"
+
+            products.append({
+                "name": name,
+                "info": product_info,
+                "price": price
+            })
+            
+            print(links.index(link) + 1)
+
+        driver.quit()
+        return pd.DataFrame(products)
+    
+    except:
+        return "Scrape error"
+
 def connect_cloud():
     load_dotenv()
 
@@ -165,6 +228,7 @@ def main():
         # print("Done.")
 
         # df = scrape_chotot("https://xe.chotot.com/mua-ban-xe-may-da-nang", 9)
+        
         # insert_data(cursor, df)
         # conn.commit()
         # print("Done.")
