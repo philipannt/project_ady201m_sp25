@@ -164,7 +164,7 @@ def create_database(cursor):
     except:
         return "Create database error."
 
-def create_table(cursor):
+def create_table_chotot(cursor):
     try:
         create_table_query = '''
         CREATE TABLE IF NOT EXISTS tbl_Xemaychotot(
@@ -185,7 +185,39 @@ def create_table(cursor):
     except:
         return "Create table error."
 
-def insert_data(cursor, df):
+def create_table_webike(cursor):
+    try:
+        create_table_query = '''
+        CREATE TABLE IF NOT EXISTS tbl_XemayWebike(
+            ID INT AUTO_INCREMENT PRIMARY KEY,
+            Name_Bike VARCHAR(255),
+            Price VARCHAR(50),
+            Engine VARCHAR(100),
+            Starting_System VARCHAR(100),
+            Compression_Ratio VARCHAR(50),
+            Cooling_System VARCHAR(100),
+            Engine_Displacement VARCHAR(100),
+            Transmission VARCHAR(100),
+            Bore_Stroke VARCHAR(100),
+            Max_Power VARCHAR(100),
+            Max_Torque VARCHAR(100),
+            Dimensions VARCHAR(100),
+            Wheelbase VARCHAR(100),
+            Seat_Height VARCHAR(100),
+            Ground_Clearance VARCHAR(100),
+            Fuel_Capacity VARCHAR(100),
+            Weight VARCHAR(100),
+            Brake VARCHAR(100),
+            Front_Tire_Size VARCHAR(100),
+            Rear_Tire_Size VARCHAR(100)
+        );
+        '''
+        cursor.execute(create_table_query)
+
+    except:
+        return "Create table error."
+
+def insert_data_chotot(cursor, df):
     try:
         insert_query = '''
         INSERT INTO tbl_Xemaychotot (
@@ -199,9 +231,40 @@ def insert_data(cursor, df):
             Price_max
         ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
         '''
-
         cursor.executemany(insert_query, df.to_records(index=False))
 
+    except:
+        return "Insert error"
+
+def insert_data_webike(cursor, df):
+    try:
+        insert_query = '''
+        INSERT INTO tbl_XemayWebike (
+            Name_Bike, 
+            Price, 
+            Engine, 
+            Starting_System, 
+            Compression_Ratio, 
+            Cooling_System, 
+            Engine_Displacement, 
+            Transmission,
+            Bore_Stroke, 
+            Max_Power, 
+            Max_Torque, 
+            Dimensions, 
+            Wheelbase,
+            Seat_Height, 
+            Ground_Clearance, 
+            Fuel_Capacity,
+            Weight, 
+            Brake, 
+            Front_Tire_Size, 
+            Rear_Tire_Size
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        '''
+
+        cursor.executemany(insert_query, df.to_records(index=False))
+    
     except:
         return "Insert error"
 
@@ -220,20 +283,20 @@ def main():
         conn = connect_cloud()
         cursor = conn.cursor()
 
-        # create_database(cursor)
+        create_database(cursor)
         conn.database = "PROJ_ADY"
 
-        # create_table(cursor)
-        # conn.commit()
-        # print("Done.")
+        create_table_chotot(cursor)
+        conn.commit()
+        print("Done.")
 
-        # df = scrape_chotot("https://xe.chotot.com/mua-ban-xe-may-da-nang", 9)
+        df = scrape_chotot("https://xe.chotot.com/mua-ban-xe-may-da-nang", 9)
         
-        # insert_data(cursor, df)
-        # conn.commit()
-        # print("Done.")
+        insert_data_chotot(cursor, df)
+        conn.commit()
+        print("Done.")
 
-        # print("Data inserted successfully.")
+        print("Data inserted successfully.")
 
         data = show_data(cursor)
         data.to_csv("output.csv", index=False, encoding="utf-8")
