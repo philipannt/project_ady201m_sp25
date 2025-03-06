@@ -65,9 +65,9 @@ def scrape_chotot(url, pages):
             }
 
             product_list.append(product)
-            
+
             print(product_links.index(link) + 1)
-        
+
         driver.quit()
         return pd.DataFrame(product_list)
 
@@ -76,7 +76,7 @@ def scrape_chotot(url, pages):
 
 def connect_cloud():
     load_dotenv()
-    
+
     config = {
         "host": os.getenv("AIVEN_DB_HOST"),
         "port": int(os.getenv("AIVEN_DB_PORT")),
@@ -157,22 +157,22 @@ def main():
         conn = connect_cloud()
         cursor = conn.cursor()
 
-        create_database(cursor)
+        # create_database(cursor)
         conn.database = "PROJ_ADY"
 
-        create_table(cursor)
-        conn.commit()
-        print("Done.")
-        
-        df = scrape_chotot("https://xe.chotot.com/mua-ban-xe-may-da-nang", 9)
-        insert_data(cursor, df)
-        conn.commit()
-        print("Done.")
+        # create_table(cursor)
+        # conn.commit()
+        # print("Done.")
 
-        print("Data inserted successfully.")
+        # df = scrape_chotot("https://xe.chotot.com/mua-ban-xe-may-da-nang", 9)
+        # insert_data(cursor, df)
+        # conn.commit()
+        # print("Done.")
 
-        # data = show_data(cursor)
-        # data.to_csv("output.csv", index=False, encoding="utf-8")
+        # print("Data inserted successfully.")
+
+        data = show_data(cursor)
+        data.to_csv("output.csv", index=False, encoding="utf-8")
 
     except:
         return "Main error."
