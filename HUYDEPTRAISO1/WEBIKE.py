@@ -1,10 +1,15 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
-import requests
 import tkinter as tk
 from tkinter import messagebox
 import json
 import time
+
 
 def scrape_webike(url, pages):
     try:
@@ -13,25 +18,30 @@ def scrape_webike(url, pages):
         }
 
         option = webdriver.ChromeOptions()
-        driver = webdriver.Chrome(options=option)
+        service = Service(ChromeDriverManager().install())
+        driver = webdriver.Chrome(service=service, options=option)
 
         links = []
         products = []
 
         for x in range(1, pages + 1):
             url_link = f"{url}?page={x}"
-            r = requests.get(url_link, headers=headers)
-            soup = BeautifulSoup(r.content, "lxml")
+            driver.get(url_link)
+
+            soup = BeautifulSoup(driver.page_source, "lxml")
             product_items = soup.find_all("div", class_="list-product")
 
             for item in product_items:
-                link = item.find('a')['href'] if item.find('a') else None
+                link_tag = item.find('a')
+                link = link_tag['href'] if link_tag else None
                 if link:
-                    link = url + link if link.startswith("/") else link
+                    link = link if link.startswith("http") else url + link
                     links.append(link)
-        
+
         for link in links:
             driver.get(link)
+            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "module_title")))
+            
             soup = BeautifulSoup(driver.page_source, "lxml")
             name_tag = soup.find("h1", class_="module_title")
             name = name_tag.text.strip() if name_tag else "Unknown"
@@ -41,22 +51,15 @@ def scrape_webike(url, pages):
 
             product_info = {}
             rows = soup.find_all("tr")
-# Đoạn này nó bị rối loạn data chút, nhưng mà chăc ko sao, chạy được :)
+
             for row in rows:
-                label_tag = row.find('label')
-                value_tags = row.find_all('td')
+                th_tag = row.find('th')
+                td_tag = row.find('td')
 
-                if label_tag and value_tags:
-                    label = label_tag.get_text(strip=True)
-                    values = [td.get_text(strip=True) for td in value_tags if td.get_text(strip=True)]
-                    
-                    if len(values) > 1:
-                        key_value_pairs = dict(zip(values[::2], values[1::2]))
-                        product_info.update(key_value_pairs)
-                    else:
-                        product_info[label] = values[0] if values else "-"
-            
-
+                if th_tag and td_tag:
+                    label = th_tag.get_text(strip=True)
+                    value = td_tag.get_text(strip=True)
+                    product_info[label] = value
 
             products.append({
                 "name": name,
@@ -68,10 +71,10 @@ def scrape_webike(url, pages):
 
         with open("WEBIKE_motorcycles.json", "w", encoding="utf-8") as f:
             json.dump(products, f, ensure_ascii=False, indent=4)
-        
+
         messagebox.showinfo("Success", "Scraping completed! Data saved to WEBIKE_motorcycles.json")
         driver.quit()
-    
+
     except Exception as e:
         driver.quit()
         messagebox.showerror("Error", f"An error showed up: {str(e)}")
@@ -85,7 +88,7 @@ def scrap_gui():
 
     title = tk.Label(root, text="WEBIKE Motorcycle Scraper", font=("Arial", 16))
     title.place(width=400, height=30, x=8, y=20)
-    
+
     page_label = tk.Label(root, text="Number of products to scrape:")
     page_label.place(width=200, height=30, x=100, y=60)
 
@@ -109,15 +112,17 @@ def scrap_gui():
         
         except ValueError:
             messagebox.showerror("Invalid Input", "Please enter a valid number")
-    
+
     scrap = tk.Button(root, text="Start Scraping", command=start, bg="green", fg="white")
     scrap.place(width=150, height=30, x=125, y=240)
-    
+
     exit_button = tk.Button(root, text="Exit", command=root.quit, bg="grey", fg="white")
     exit_button.place(width=80, height=30, x=320, y=370)
 
     root.mainloop()
 
 
-if __name__ =="__main__":
+if __name__ == "__main__":
     scrap_gui()
+
+
