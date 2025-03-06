@@ -1,0 +1,46 @@
+Data Processing FUll 
+
+Step 1: Reading and Loading Data
+
+First, we need to read data from collected file json.
+
+
+Step 2: Data Cleaning
+
+Raw data often contains issues such as:
+
+Duplicates: Data might be collected multiple times due to re-scraping or overlapping sources. But this process, we already did it in scraping code.
+
+
+Processing methods: We create a dictionary, and try to get same variable from the code when we created the scraping def.
+
+
+
+Step 3: Data Normalization and Transformation
+
+Once the data is clean, we need to standardize and transform it:
+
+Data type conversion: Convert fields like year, kilometers, and price to numeric types.
+
+Mapping values: For example, converting bike types into numbers ("manual clutch" → 1, "scooter" → 2, "gear bike" → 3) to optimize database queries.
+
+Normalization makes data easier to handle, reduces query times, and prevents errors during MySQL operations.
+
+Step 4: Filtering and Selecting Essential Fields
+
+Not all collected fields are necessary for long-term storage. It’s better to keep only relevant fields:
+
+Bike name: Identifies the specific bike model.
+
+Year of manufacture: Determines the bike's production year.
+
+Type: Categorizes the bike (manual clutch, scooter, gear bike).
+
+Status: Indicates the bike's condition (new, used, refurbished).
+
+Price: Helps compare market values.
+
+Kilometers driven: Shows the bike's usage and wear.
+
+By selecting only essential fields, we save storage space and speed up MySQL queries.
+
