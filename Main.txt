@@ -86,3 +86,7 @@ Lab 3:
 - crawl -> df
 - create db cloud
 - insert from df -> db cloud
+
+- code done.
+
+Slide lab 3:
