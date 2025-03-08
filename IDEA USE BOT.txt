@@ -1,0 +1,53 @@
+IDEA USE BOT
+
+1. MODEL sẽ chọn theo tham khảo thì sẽ dựa theo yếu tố sau:
+
+- Bản chất: data của mình là data có mối quan hệ phi tuyến tính nên sẽ phải dùng một model để xử lý tuyến tính ( REGRESSOR).
+
+- Một số model rcmd:
+
++ Linear Regression: basic, dễ dùng, bị giới hạn trong việc xử lý các mối quan hệ phi tuyến tính.
+
++ Random Forest Regressor: nắm bắt các mối quan hệ phi tuyến tính tốt, giảm tình trạng overfitting.
+
++ Decision Tree Regressor: Dễ dùng, dễ hiểu có khả năng xác dinh các mối quan hệ phi tuyến tính tốt.
+
+=> Có thể research thêm các cách nào tối ưu :) chớ Huy ko biết.
+=> Đa số mình sẽ import scikit để có thể sử dụng các model trên. 
+
+
+2. Xác định các features của sản phẩm:
+
+- Thông tin chính để làm:
++ Year
++ KM
++ Brand
++ Price
+
+- Thông tin phụ:
++ Location
++ Listing time
+
+- Nếu theo web chợ tốt thì mình đã có phần price min và max.
+=> Chỉ cần tính trung bình cộng là ra.
+
+- Nếu theo web webike, không có phần max và min price.
+=> Cần dựa trên các đặc trưng khác (năm sản xuất, số km, thương hiệu, v.v.) để dự đoán giá.
+
+3. Thực hiện các việc với model:
+
+--1 Tiền xử lý data:
+
+- Chuyển đổi các data thanh các kiểu dữ lieu phù hợp với model.
+
+- Tách brand ra từ "name" nếu cần ( vì mình chưa có hàng này).
+
+--2 Xây dựng và train model:
+- Chọn feature để model có thể biết để nó làm ( bổ sung thông tin phụ ).
+
+- Đánh giá và triển khai model: dùng MeanSquaredError và R^2 ( cái này có sẵn trong scikit )
+
+
+Notes: Còn phần làm sao tích hợp bot vào cho người dùng có thể sử dung. Nếu thiếu gì thì bổ sung nhé ^^
+
+
