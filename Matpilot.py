@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import ScalarFormatter
 from matplotlib.ticker import MultipleLocator
 
+# MADE BY Huy lỏ
 
-# Đọc file từ file JSON
 df = pd.read_json("CHOTOT_motorcycles2.json")
 
 
